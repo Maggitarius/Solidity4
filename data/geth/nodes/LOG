@@ -1,0 +1,14 @@
+=============== Jun 19, 2024 (MSK) ===============
+23:52:14.038421 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:52:14.044182 db@open opening
+23:52:14.047800 version@stat F·[] S·0B[] Sc·[]
+23:52:14.048880 db@janitor F·2 G·0
+23:52:14.050141 db@open done T·4.6986ms
+=============== Jun 20, 2024 (MSK) ===============
+00:39:44.074687 memdb@flush N·36864 S·3MiB
+00:39:44.090714 memdb@flush created L0@3 N·36864 S·699KiB "loc..seq,v30":"version,v1"
+00:39:44.091235 version@stat F·[1] S·699KiB[699KiB] Sc·[0.25]
+00:39:44.092818 memdb@flush committed F·1 T·18.1304ms
+00:39:44.093983 journal@remove removed @1
+01:04:56.150017 db@close closing
+01:04:56.151593 db@close done T·1.0492ms
